@@ -1,0 +1,8 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="MasterPage" Url="_catalogs/masterpage" Path="MasterPage" RootWebOnly="TRUE" >
+		<File Url="BaseAppMasterPage.master" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="Base MasterPage" />
+			<Property Name="MasterPageDescription" Value="Base MasterPage" />
+		</File>
+	</Module>
+</Elements>

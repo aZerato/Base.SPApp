@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="7C468FBE-8532-49FC-AF8D-6DE5AEB2C891"
+          ActivateOnDefault="False"
+          Title="BaseApp Provisioning"
+          Description="Features for BaseApp Provisioning Website"
+          Version="1.0.0.0"
+          Hidden="False"
+          Scope="Web"
+          DefaultResourceFile="_Res"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ActivationDependencies>
+		<ActivationDependency FeatureId="93DDE27F-8A45-4A5F-A2A0-10694DBADC1C"/> <!-- Base List  -->
+		<ActivationDependency FeatureId="8F432AF5-D73D-4E0B-B501-B7820304BAD6"/> <!-- Base List WP -->
+	</ActivationDependencies>
+</Feature>

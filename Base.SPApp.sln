@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.SPApp", "Base.SPApp\Base.SPApp.csproj", "{8FE1049F-80BC-4730-9FD1-0C45CBA79675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.SPApp.Sharepoint.Receivers", "Base.SPApp.Sharepoint.Receivers\Base.SPApp.Sharepoint.Receivers.csproj", "{49C6AC77-668F-42F6-8687-8DB4E0D4E7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Deployment", "1-Deployment", "{8E010231-EE11-4FF0-B279-422854139C10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Sharepoint", "2-Sharepoint", "{211A2241-1F93-4147-86FD-297B61786C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.SPApp.Sharepoint.Receivers.Extensions", "Base.SPApp.Sharepoint.Receivers.Extensions\Base.SPApp.Sharepoint.Receivers.Extensions.csproj", "{672D60BF-3ABD-4531-8995-4062A9D508CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-WebSite", "3-WebSite", "{21D8F203-C646-4F5E-A8AA-2E3770D8AF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.SPApp.WebSite", "Base.SPApp.WebSite\Base.SPApp.WebSite.csproj", "{9352322B-9809-4205-85D9-D8B19F280515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.SPApp.Sharepoint.Extensions", "Base.SPApp.Sharepoint.Extensions\Base.SPApp.Sharepoint.Extensions.csproj", "{DBD14D7C-EC35-4668-8FEB-2F7171F7F617}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62AD5E07-56D0-4444-9D8E-02023A4DD184}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FE1049F-80BC-4730-9FD1-0C45CBA79675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE1049F-80BC-4730-9FD1-0C45CBA79675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE1049F-80BC-4730-9FD1-0C45CBA79675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE1049F-80BC-4730-9FD1-0C45CBA79675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C6AC77-668F-42F6-8687-8DB4E0D4E7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C6AC77-668F-42F6-8687-8DB4E0D4E7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C6AC77-668F-42F6-8687-8DB4E0D4E7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C6AC77-668F-42F6-8687-8DB4E0D4E7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672D60BF-3ABD-4531-8995-4062A9D508CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672D60BF-3ABD-4531-8995-4062A9D508CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672D60BF-3ABD-4531-8995-4062A9D508CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672D60BF-3ABD-4531-8995-4062A9D508CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9352322B-9809-4205-85D9-D8B19F280515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9352322B-9809-4205-85D9-D8B19F280515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9352322B-9809-4205-85D9-D8B19F280515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9352322B-9809-4205-85D9-D8B19F280515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD14D7C-EC35-4668-8FEB-2F7171F7F617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD14D7C-EC35-4668-8FEB-2F7171F7F617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD14D7C-EC35-4668-8FEB-2F7171F7F617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD14D7C-EC35-4668-8FEB-2F7171F7F617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FE1049F-80BC-4730-9FD1-0C45CBA79675} = {8E010231-EE11-4FF0-B279-422854139C10}
+		{49C6AC77-668F-42F6-8687-8DB4E0D4E7DD} = {211A2241-1F93-4147-86FD-297B61786C08}
+		{672D60BF-3ABD-4531-8995-4062A9D508CB} = {211A2241-1F93-4147-86FD-297B61786C08}
+		{DBD14D7C-EC35-4668-8FEB-2F7171F7F617} = {211A2241-1F93-4147-86FD-297B61786C08}
+		{9352322B-9809-4205-85D9-D8B19F280515} = {21D8F203-C646-4F5E-A8AA-2E3770D8AF3B}
+	EndGlobalSection
+EndGlobal

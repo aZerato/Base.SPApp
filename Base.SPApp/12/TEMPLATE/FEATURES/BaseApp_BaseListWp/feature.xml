@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="8F432AF5-D73D-4E0B-B501-B7820304BAD6"
+          ActivateOnDefault="False"
+          Title="BaseApp_BaseListWp"
+          Description="Feature for BaseApp BaseList WebPart"
+          Version="1.0.0.0"
+          Hidden="True"
+          Scope="Web"
+          DefaultResourceFile="_Res"
+          xmlns="http://schemas.microsoft.com/sharepoint/"
+          ReceiverAssembly="Base.SPApp.Sharepoint.Receivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03b678c7aa29b6cb"
+          ReceiverClass="Base.SPApp.Sharepoint.Receivers.WebPartsReceiver">
+	<ElementManifests>
+		<ElementManifest Location="webparts.xml"/>
+	</ElementManifests>
+	<Properties>
+		<Property Key="WebPartsToDelete" Value="BaseListWP.webpart"/>
+	</Properties>
+</Feature>

@@ -1,0 +1,7 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="PageLayoutsModule" Url="_catalogs/masterpage" Path="Layout" RootWebOnly="TRUE" >
+		<File Url="BaseAppLayout.aspx" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="Base Layout" />
+		</File>
+	</Module>
+</Elements>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance
+        FeatureId="93DDE27F-8A45-4A5F-A2A0-10694DBADC1C"
+        Title="BaseList"
+        Description="BaseList created with a feature."
+        TemplateType="101"
+        Url="Lists/BaseList">
+	</ListInstance>
+</Elements>

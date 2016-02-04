@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="93DDE27F-8A45-4A5F-A2A0-10694DBADC1C"
+          ActivateOnDefault="False"
+          Title="BaseApp_BaseList"
+          Description="Feature for BaseApp BaseList"
+          Version="1.0.0.0"
+          Hidden="True"
+          Scope="Web"
+          DefaultResourceFile="_Res"
+          xmlns="http://schemas.microsoft.com/sharepoint/"
+          ReceiverAssembly="Base.SPApp.Sharepoint.Receivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03b678c7aa29b6cb"
+          ReceiverClass="Base.SPApp.Sharepoint.Receivers.ListsReceiver">
+	<ElementManifests>
+		<ElementManifest Location="listInstances.xml"/>
+		<ElementManifest Location="listTemplates.xml"/>
+		<ElementManifest Location="listReceivers.xml"/>
+	</ElementManifests>
+	<Properties>
+		<Property Key="ListsToDelete" Value="BaseList"/>
+	</Properties>
+</Feature>

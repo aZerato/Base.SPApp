@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="BAA26501-A289-4FA1-BD1A-08227C1A951F"
+          ActivateOnDefault="False"
+          Title="BaseApp_Layout"
+          Description="Feature for BaseApp Layout"
+          Version="1.0.0.0"
+          Hidden="False"
+          Scope="Site"
+          DefaultResourceFile="_Res"
+          xmlns="http://schemas.microsoft.com/sharepoint/"
+		  ReceiverAssembly="Base.SPApp.Sharepoint.Receivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03b678c7aa29b6cb"
+          ReceiverClass="Base.SPApp.Sharepoint.Receivers.LayoutReceiver">
+	<ElementManifests>
+		<ElementManifest Location="provisionningLayout.xml"/>
+	</ElementManifests>
+</Feature>

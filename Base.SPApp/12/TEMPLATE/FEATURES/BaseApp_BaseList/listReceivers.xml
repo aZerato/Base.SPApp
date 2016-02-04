@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Receivers ListTemplateId="101">
+		<Receiver>
+			<Name>BaseListReceivers</Name>
+			<Type>ItemAdding</Type>
+			<SequenceNumber>10000</SequenceNumber>
+			<Assembly>Base.SPApp.Sharepoint.Receivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03b678c7aa29b6cb</Assembly>
+			<Class>Base.SPApp.Sharepoint.Receivers.Lists.BaseListReceivers</Class>
+			<Data></Data>
+			<Filter></Filter>
+		</Receiver>
+		<Receiver>
+			<Name>BaseListReceivers</Name>
+			<Type>ItemUpdating</Type>
+			<SequenceNumber>10000</SequenceNumber>
+			<Assembly>Base.SPApp.Sharepoint.Receivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03b678c7aa29b6cb</Assembly>
+			<Class>Base.SPApp.Sharepoint.Receivers.Lists.BaseListReceivers</Class>
+			<Data></Data>
+			<Filter></Filter>
+		</Receiver>
+	</Receivers>
+</Elements>

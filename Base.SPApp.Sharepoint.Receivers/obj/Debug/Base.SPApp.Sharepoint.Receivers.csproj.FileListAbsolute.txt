@@ -1,0 +1,8 @@
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\bin\Debug\Base.SPApp.Sharepoint.Receivers.dll
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\bin\Debug\Base.SPApp.Sharepoint.Receivers.pdb
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\bin\Debug\Microsoft.SharePoint.Search.dll
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\bin\Debug\Microsoft.Office.Server.Search.dll
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\bin\Debug\Microsoft.SharePoint.Search.xml
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\obj\Debug\Base.SPApp.Sharepoint.Receivers.dll
+C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.Sharepoint.Receivers\obj\Debug\Base.SPApp.Sharepoint.Receivers.pdb
