@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Base.SPApp.Sharepoint.Extensions/bin/Debug/Base.SPApp.Sharepoint.Extensions.dll
+*.dll
+Base.SPApp.Sharepoint.Extensions/bin/Debug/Base.SPApp.Sharepoint.Extensions.dll
+Base.SPApp.Sharepoint.Extensions/obj/Debug/Base.SPApp.Sharepoint.Extensions.dll
+*.pdb
+Base.SPApp.Sharepoint.Receivers.Extensions/bin/Debug/Base.SPApp.Sharepoint.Receivers.Extensions.dll
+*.dll
+Base.SPApp.Sharepoint.Receivers/obj/Debug/ResolveAssemblyReference.cache
+*.suo
+*.cache
+*.wsp
+*.pdb
+*.pdb
