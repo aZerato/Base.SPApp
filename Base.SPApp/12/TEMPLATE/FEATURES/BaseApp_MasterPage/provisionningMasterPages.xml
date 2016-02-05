@@ -5,4 +5,22 @@
 			<Property Name="MasterPageDescription" Value="Base MasterPage" />
 		</File>
 	</Module>
+	<Module Name="Assets" Url="Style Library/Assets/css" Path="Assets\css" RootWebOnly="TRUE" >
+		<File Url="bootstrap.min.css" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="Stylesheet" />
+			<Property Name="Description" Value="Bootstrap CSS" />
+		</File>
+	</Module>
+	<Module Name="Assets2" Url="Style Library/Assets/js" Path="Assets\js" RootWebOnly="TRUE" >
+		<File Url="bootstrap.min.js" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="JavaScript" />
+			<Property Name="Description" Value="Bootstrap JS" />
+		</File>
+	</Module>
+	<Module Name="Assets3" Url="Style Library/Assets/js" Path="Assets\js" RootWebOnly="TRUE" >
+		<File Url="jquery-1.12.0.min.js" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="JavaScript" />
+			<Property Name="Description" Value="jQuery" />
+		</File>
+	</Module>
 </Elements>

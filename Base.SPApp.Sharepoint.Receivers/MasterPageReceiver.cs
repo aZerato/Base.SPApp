@@ -3,6 +3,7 @@
     using System;
     using Microsoft.SharePoint;
     using Sharepoint.Receivers.Extensions;
+    using System.IO;
 
     /// <summary>
     /// The SP Feature Receiver class.
@@ -60,6 +61,8 @@
         {
             try
             {
+                System.Diagnostics.Debugger.Launch();
+
                 using (SPWeb web = properties.GetWeb())
                 {
                     string urlCustomMaster = "/_catalogs/masterpage/BaseAppMasterPage.master";
@@ -76,6 +79,7 @@
                         web.CustomMasterUrl = masterUri.AbsolutePath;
 
                         web.Update();
+
                     }
                     else
                     {
