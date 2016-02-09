@@ -11,6 +11,7 @@ Sample Visual Studio 2010 solution for Sharepoint 2007 / MOSS.
  4. list items receivers (http://aarebrot.net/blog/2010/08/creating-custom-list-event-receivers-in-sharepoint-2007/)
  5. the masterpage with codebehind
  6. webpart only code
+ 7. MainMenu is a custom UserControl with codebehind (check in "12/TEMPLATE/CONTROLTEMPLATES/BaseMenu/MainMenu.ascx")
 
 ## Requires
  1. Visual Studio 2010 on the Sharepoint Server

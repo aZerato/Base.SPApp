@@ -34,7 +34,7 @@
              base.CreateChildControls();
 
              Panel contentDiv = new Panel();
-             contentDiv.CssClass = "content";
+             contentDiv.CssClass = "webpart webpart-baselist";
 
              HtmlGenericControl h2 = new HtmlGenericControl("h2");
              h2.InnerHtml = "WebPart BaseList";
@@ -64,7 +64,8 @@
                  if (items.Count > 0)
                  {
                      Table results = new Table();
-                    
+                     results.CssClass = "table";
+
                      foreach (SPListItem item in items)
                      {
                          TableRow tr = new TableRow();

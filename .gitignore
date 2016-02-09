@@ -58,3 +58,13 @@ Base.SPApp.Sharepoint.Receivers/obj/Debug/ResolveAssemblyReference.cache
 *.wsp
 *.pdb
 *.pdb
+*.pdb
+*.dll
+*.cache
+Base.SPApp/Base.SPApp.wsp
+*.cache
+*.dll
+*.suo
+*.dll
+*.pdb
+*.pdb

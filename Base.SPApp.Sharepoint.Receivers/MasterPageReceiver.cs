@@ -61,7 +61,7 @@
         {
             try
             {
-                System.Diagnostics.Debugger.Launch();
+                //System.Diagnostics.Debugger.Launch();
 
                 using (SPWeb web = properties.GetWeb())
                 {

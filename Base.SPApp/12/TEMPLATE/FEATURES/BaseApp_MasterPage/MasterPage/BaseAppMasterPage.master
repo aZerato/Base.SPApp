@@ -25,9 +25,17 @@
 	<script type="text/javascript" src="/Style Library/Assets/js/bootstrap.min.js"></script>
 
 	<style>
-		.ms-pagemargin
+		.ms-pagemargin, 
+		.ms-areaseparatorleft,
+		.ms-areaseparatorright
 		{
+			background: none !important;
+			border: 0 !important;
 			height: 5px !important;
+		}
+		table 
+		{
+			height: auto !important;
 		}
 	</style>
 	
@@ -163,14 +171,31 @@
         
         <!-- Navigation  -->
 
-		<div class="navbar navbar-static">
-			<div class="container">
-				<asp:ContentPlaceHolder id="PlaceHolderSiteName" runat="server">
-					<SharePoint:SPLinkButton runat="server" NavigateUrl="~site/" id="onetidProjectPropertyTitle">
-						<SharePoint:SiteLogoImage id="onetidHeadbnnr0" LogoImageUrl="/_layouts/images/titlegraphic.gif" runat="server"/>
-						<SharePoint:ProjectProperty ID="ProjectProperty1" Property="Title" runat="server" />
-					</SharePoint:SPLinkButton>	
-				</asp:ContentPlaceHolder>
+		<div class="navbar navbar-default">
+			<div class="container-fluid">
+                
+                <div class="navbar-header">
+                
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+      
+				    <asp:ContentPlaceHolder id="PlaceHolderSiteName" runat="server">
+						<SharePoint:SPLinkButton runat="server" NavigateUrl="~site/" id="onetidProjectPropertyTitle" CssClass="navbar-brand collapsed">
+						    <SharePoint:SiteLogoImage id="onetidHeadbnnr0" LogoImageUrl="/_layouts/images/titlegraphic.gif" runat="server"/>
+					    </SharePoint:SPLinkButton>	
+					    <SharePoint:SPLinkButton runat="server" NavigateUrl="~site/" id="onetidProjectPropertyLogo" CssClass="navbar-brand collapsed">
+						    <SharePoint:ProjectProperty ID="ProjectProperty1" Property="Title" runat="server" />
+					    </SharePoint:SPLinkButton>	
+				    </asp:ContentPlaceHolder>
+				    
+                </div>
+
+                <asp:ContentPlaceHolder id="PlaceHolderMainMenu" runat="server" />
+
 			</div>
 		</div>
 		
@@ -183,37 +208,38 @@
 				<div class="col-md-6">
 					<asp:ContentPlaceHolder id="PlaceHolderPageImage" runat="server"/>
 
-					<asp:ContentPlaceHolder id="PlaceHolderPageTitleInTitleArea" runat="server">
-					</asp:ContentPlaceHolder>
-					
-					<asp:ContentPlaceHolder id="PlaceHolderPageDescription" runat="server">
-					</asp:ContentPlaceHolder>
-					
-					<asp:ContentPlaceHolder id="PlaceHolderLeftActions" runat="server">
-					</asp:ContentPlaceHolder>
+					<asp:ContentPlaceHolder id="PlaceHolderPageTitleInTitleArea" runat="server"/>
+										
+					<asp:ContentPlaceHolder id="PlaceHolderPageDescription" runat="server"/>
+
+					<asp:ContentPlaceHolder id="PlaceHolderTitleLeftBorder" runat="server"/>
+
+					<asp:ContentPlaceHolder id="PlaceHolderLeftActions" runat="server" />
 				</div>
 				<div class="col-md-6">
                     <asp:ContentPlaceHolder id="PlaceHolderSearchArea" runat="server">
-                        <SharePoint:DelegateControl ID="DelegateControl5" runat="server" ControlId="SmallSearchInputBox"/>
+						<SharePoint:DelegateControl ID="DelegateControl5" runat="server" ControlId="SmallSearchInputBox"/>
                     </asp:ContentPlaceHolder>
 		
-					<asp:ContentPlaceHolder id="PlaceHolderCalendarNavigator" runat="server">
-					</asp:ContentPlaceHolder>
+					<asp:ContentPlaceHolder id="PlaceHolderCalendarNavigator" runat="server"/>
 					
+					<asp:ContentPlaceHolder id="PlaceHolderTitleRightMargin" runat="server"/>
+
+					<asp:ContentPlaceHolder id="PlaceHolderBodyRightMargin" runat="server"/>
+
+					<asp:ContentPlaceHolder id="PlaceHolderTitleAreaSeparator" runat="server"/>
+
 					<asp:ContentPlaceHolder id="PlaceHolderMiniConsole" runat="server"/>
 				</div>
 			</div>
 		
 			<div class="row">
 				<div class="col-md-12">
-					<asp:ContentPlaceHolder id="PlaceHolderNavSpacer" runat="server">
-					</asp:ContentPlaceHolder>
+					<asp:ContentPlaceHolder id="PlaceHolderNavSpacer" runat="server"/>
 
-					<asp:ContentPlaceHolder id="PlaceHolderLeftNavBar" runat="server">
-					</asp:ContentPlaceHolder>
+					<asp:ContentPlaceHolder id="PlaceHolderLeftNavBar" runat="server"/>
 					
-					<asp:ContentPlaceHolder id ="PlaceHolderBodyLeftBorder" runat="server">
-					</asp:ContentPlaceHolder>
+					<asp:ContentPlaceHolder id ="PlaceHolderBodyLeftBorder" runat="server"/>
 				</div>
 			</div>			
 		</div>
@@ -241,4 +267,3 @@
 
 </body>
 </html>
-

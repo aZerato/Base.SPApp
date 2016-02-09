@@ -52,6 +52,9 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usercontrols\MainMenu\MainMenuControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Webparts\BaseList\BaseListWebPart.cs" />
   </ItemGroup>
   <ItemGroup>
