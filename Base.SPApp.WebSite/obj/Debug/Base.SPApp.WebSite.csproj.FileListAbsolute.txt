@@ -1,8 +1,0 @@
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\bin\Debug\Base.SPApp.WebSite.dll
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\bin\Debug\Base.SPApp.WebSite.pdb
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\bin\Debug\Microsoft.SharePoint.Search.dll
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\bin\Debug\Microsoft.Office.Server.Search.dll
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\bin\Debug\Microsoft.SharePoint.Search.xml
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\obj\Debug\Base.SPApp.WebSite.dll
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp.WebSite\obj\Debug\Base.SPApp.WebSite.pdb

@@ -1,5 +1,0 @@
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp\bin\Base.SPApp.dll
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp\bin\Base.SPApp.pdb
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp\obj\Debug\Base.SPApp.dll
-C:\Documents and Settings\SPT_Admin\My Documents\Visual Studio 2010\Projects\Base.SPApp\Base.SPApp\obj\Debug\Base.SPApp.pdb
