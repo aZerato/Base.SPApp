@@ -12,6 +12,7 @@ Sample Visual Studio 2010 solution for Sharepoint 2007 / MOSS.
  5. the masterpage with codebehind
  6. webpart only code
  7. MainMenu is a custom UserControl with codebehind (check in "12/TEMPLATE/CONTROLTEMPLATES/BaseMenu/MainMenu.ascx")
+ 8. BaseSPPlusWebPart : webpart with usercontrol and acsx, this one use SharepointPlus javascript library load lists & list items (http://aymkdn.github.io/SharepointPlus/)
 
 ## Requires
  1. Visual Studio 2010 on the Sharepoint Server
@@ -50,7 +51,8 @@ Sample Visual Studio 2010 solution for Sharepoint 2007 / MOSS.
 
 ## Infos
 
-- Each projects have "build events" (right click > properties on project > Build Events) that copy is own dll in correct folder of Base.SPApp (for this sample all dll are copied in GAC folder).
+- Each project have "build events" (right click > properties on project > Build Events) that copy is own dll in correct folder of Base.SPApp (for this sample all dll are copied in GAC folder).
+- Each project : 3.5 Framework
 - The base solution is created with WSPBuilder. To default, an ".snk" file is added. For each new project use this signature. 
 - to prefer to use the ".bat" file before the shortcut "deploy" from WSPBuilder. 
 

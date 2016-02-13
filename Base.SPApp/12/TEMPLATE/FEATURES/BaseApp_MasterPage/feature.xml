@@ -13,9 +13,4 @@
 	<ElementManifests>
 		<ElementManifest Location="provisionningMasterPages.xml"/>
 	</ElementManifests>
-	<Properties>
-		<Property Key="jQuery" Value="./Assets/js/jquery-1.12.0.min.js"/>
-		<Property Key="BootstrapCSS" Value="./Assets/css/bootstrap.min.css"/>
-		<Property Key="BootstrapJS" Value="./Assets/js/bootstrap.min.js"/>
-	</Properties>
 </Feature>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<!--New WebParts-->
+	<Module Name="WebPartPopulation" Url="_catalogs/wp" RootWebOnly="TRUE" Path="WebParts">
+		<!-- Webparts BaseList -->
+		<File Url="BaseSPPlusWP.webpart" Type="GhostableInLibrary" >
+			<Property Name="Group" Value="WebParts BaseApp"></Property>
+			<Property Name="QuickAddGroups" Value="WP_Base" />
+		</File>
+	</Module>
+</Elements>

@@ -71,6 +71,9 @@
     <Folder Include="GAC\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="12\TEMPLATE\CONTROLTEMPLATES\BaseApp\BaseSPPlus\BaseSPPlus.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseLayout\Layout\BaseAppLayout.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
@@ -78,6 +81,7 @@
     <None Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\MasterPage\BaseAppMasterPage.master">
       <SubType>ASPXCodeBehind</SubType>
     </None>
+    <None Include="12\TEMPLATE\FEATURES\BaseApp_BaseSPPlusWp\WebParts\BaseSPPlusWP.webpart" />
     <None Include="80\Sample Web.config" />
     <None Include="Base.SPApp.snk" />
     <None Include="install wsp.bat" />
@@ -86,12 +90,14 @@
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseLayout\feature.xml" />
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseLayout\provisionningLayout.xml" />
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseListWp\webparts.xml" />
-    <Content Include="12\TEMPLATE\CONTROLTEMPLATES\BaseMenu\MainMenu.ascx">
+    <Content Include="12\TEMPLATE\CONTROLTEMPLATES\BaseApp\BaseMenu\MainMenu.ascx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\Assets\css\bootstrap.min.css" />
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\Assets\js\bootstrap.min.js" />
+    <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\Assets\js\handlebars-v4.0.5.js" />
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\Assets\js\jquery-1.12.0.min.js" />
+    <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\Assets\js\sharepointplus-3.12.min.js" />
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_Provisioning\feature.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -106,9 +112,15 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseList\listTemplates.xml" />
-    <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\feature.xml" />
-    <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\provisionningMasterPages.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\feature.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="12\TEMPLATE\FEATURES\BaseApp_MasterPage\provisionningMasterPages.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseListWp\feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseSPPlusWp\feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\BaseApp_BaseSPPlusWp\webparts.xml" />
     <Content Include="SolutionID.txt" />
   </ItemGroup>
   <ItemGroup>

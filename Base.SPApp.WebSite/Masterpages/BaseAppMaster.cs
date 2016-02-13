@@ -45,7 +45,7 @@
                 this.litTitle = new Literal();
                 this.PlaceHolderPageTitle.Controls.Add(this.litTitle);
 
-                MainMenuCtrl = (MainMenuControl)LoadControl("~/_CONTROLTEMPLATES/BaseMenu/MainMenu.ascx");
+                MainMenuCtrl = (MainMenuControl)LoadControl("~/_CONTROLTEMPLATES/BaseApp/BaseMenu/MainMenu.ascx");
                 this.PlaceHolderMainMenu.Controls.Add(MainMenuCtrl);
             }
             catch (Exception ex)

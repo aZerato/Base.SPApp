@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+	<webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+		<metaData>
+			<type name="Base.SPApp.WebSite.Webparts.BaseSPPlusWebPart, Base.SPApp.WebSite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=03b678c7aa29b6cb" />
+			<importErrorMessage>Unable to import webpart, an error occured.</importErrorMessage>
+		</metaData>
+		<data>
+			<properties>
+				<property name="Title" type="string">BaseSPPlus WebPart</property>
+				<property name="Description" type="string">BaseSPPlus WebPart linked with an UserControl and with SharepointPlus JavaScript lib.</property>
+				<property name="ChromeType" type="chrometype">None</property>
+			</properties>
+		</data>
+	</webPart>
+</webParts>

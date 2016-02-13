@@ -23,4 +23,16 @@
 			<Property Name="Description" Value="jQuery" />
 		</File>
 	</Module>
+	<Module Name="Assets4" Url="Style Library/Assets/js" Path="Assets\js" RootWebOnly="TRUE" >
+		<File Url="sharepointplus-3.12.min.js" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="JavaScript" />
+			<Property Name="Description" Value="SharepointPlus JS Lib" />
+		</File>
+	</Module>
+	<Module Name="Assets5" Url="Style Library/Assets/js" Path="Assets\js" RootWebOnly="TRUE" >
+		<File Url="handlebars-v4.0.5.js" Type="GhostableInLibrary">
+			<Property Name="ContentType" Value="JavaScript" />
+			<Property Name="Description" Value="Handlebars JS Lib" />
+		</File>
+	</Module>
 </Elements>
